@@ -1,9 +1,13 @@
 name: build Gmeek
 
 on:
+  push:
+    paths:
+      - 'config.json'
+      - '.github/workflows/Gmeek.yml'
   workflow_dispatch:
   issues:
-    types: [opened, edited]
+    types: [opened, edited, deleted]
   schedule:
     - cron: "0 16 * * *"
     
