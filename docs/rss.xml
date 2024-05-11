@@ -1,3 +1,28 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Qxzg's Blog</title><link>https://qxzg.github.io</link><description>「What's past is prologue」</description><copyright>Qxzg's Blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/30212669</url><title>avatar</title><link>https://qxzg.github.io</link></image><lastBuildDate>Fri, 10 May 2024 08:15:00 +0000</lastBuildDate><managingEditor>Qxzg's Blog</managingEditor><ttl>60</ttl><webMaster>Qxzg's Blog</webMaster><item><title>Vitis HLS CLI 学习记录</title><link>https://qxzg.github.io/post/Vitis-HLS-CLI-%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95.html</link><description>_这是一个记录如何在命令行环境中使用Vitis HLS的Blog~_&#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Qxzg's Blog</title><link>https://qxzg.github.io</link><description>「What's past is prologue」</description><copyright>Qxzg's Blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/30212669</url><title>avatar</title><link>https://qxzg.github.io</link></image><lastBuildDate>Sat, 11 May 2024 03:22:45 +0000</lastBuildDate><managingEditor>Qxzg's Blog</managingEditor><ttl>60</ttl><webMaster>Qxzg's Blog</webMaster><item><title>Run Vitis HLS Cli on Archlinux</title><link>https://qxzg.github.io/post/Run-Vitis-HLS-Cli-on-Archlinux.html</link><description>### 1. Can't lunch vit_hls with error: `@E cannot exec arch command, error: couldn't execute "arch": no such file or directory`&#13;
+run `echo "#\!bin/sh\nuname -m" &gt; /usr/bin/arch; chmod +x /usr/bin/arch`&#13;
+&#13;
+### 2. Can't run `csim_design`&#13;
+Error log:&#13;
+```&#13;
+NFO: [SIM 211-2] *************** CSIM start ***************&#13;
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.&#13;
+   Generating csim.exe&#13;
+/opt/Xilinx/Vivado/2022.2/tps/lnx64/binutils-2.37/bin/ld: /usr/lib/libm.so.6: unknown type [0x13] section `.relr.dyn'&#13;
+/opt/Xilinx/Vivado/2022.2/tps/lnx64/binutils-2.37/bin/ld: skipping incompatible /usr/lib/libm.so.6 when searching for /usr/lib/libm.so.6&#13;
+/opt/Xilinx/Vivado/2022.2/tps/lnx64/binutils-2.37/bin/ld: cannot find /usr/lib/libm.so.6&#13;
+/opt/Xilinx/Vivado/2022.2/tps/lnx64/binutils-2.37/bin/ld: /usr/lib/libm.so.6: unknown type [0x13] section `.relr.dyn'&#13;
+/opt/Xilinx/Vivado/2022.2/tps/lnx64/binutils-2.37/bin/ld: skipping incompatible /usr/lib/libm.so.6 when searching for /usr/lib/libm.so.6&#13;
+/opt/Xilinx/Vivado/2022.2/tps/lnx64/binutils-2.37/bin/ld: /usr/lib/libmvec.so.1: unknown type [0x13] section `.relr.dyn'&#13;
+/opt/Xilinx/Vivado/2022.2/tps/lnx64/binutils-2.37/bin/ld: skipping incompatible /usr/lib/libmvec.so.1 when searching for /usr/lib/libmvec.so.1&#13;
+/opt/Xilinx/Vivado/2022.2/tps/lnx64/binutils-2.37/bin/ld: cannot find /usr/lib/libmvec.so.1&#13;
+/opt/Xilinx/Vivado/2022.2/tps/lnx64/binutils-2.37/bin/ld: /usr/lib/libmvec.so.1: unknown type [0x13] section `.relr.dyn'&#13;
+/opt/Xilinx/Vivado/2022.2/tps/lnx64/binutils-2.37/bin/ld: skipping incompatible /usr/lib/libmvec.so.1 when searching for /usr/lib/libmvec.so.1&#13;
+collect2: error: ld returned 1 exit status&#13;
+make: *** [Makefile.rules:323: csim.exe] Error 1&#13;
+ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s).&#13;
+INFO: [SIM 211-3] *************** CSIM finish ***************&#13;
+```&#13;
+Solution from https://support.xilinx.com/s/question/0D54U00005VQKeNSAX/vitis-hls-20211-ld-linker-and-libm-relr-section-error?language=en_US: &#13;
+Run `sudo mv /opt/Xilinx/Vivado/2022.2/tps/lnx64/binutils-2.37/bin/ld /opt/Xilinx/Vivado/2022.2/tps/lnx64/binutils-2.37/bin/ld.back` to forces Vitis to use /usr/bin/ld。</description><guid isPermaLink="true">https://qxzg.github.io/post/Run-Vitis-HLS-Cli-on-Archlinux.html</guid><pubDate>Sat, 11 May 2024 03:22:05 +0000</pubDate></item><item><title>Vitis HLS CLI 学习记录</title><link>https://qxzg.github.io/post/Vitis-HLS-CLI-%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95.html</link><description>_这是一个记录如何在命令行环境中使用Vitis HLS的Blog~_&#13;
 研究vitis_hls cli的动机主要是因为我在主力系统Arch Linux上安装的Vitis HLS死活无法正常启动GUI ~，并且那个套壳eclipse是真***难用。</description><guid isPermaLink="true">https://qxzg.github.io/post/Vitis-HLS-CLI-%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95.html</guid><pubDate>Fri, 10 May 2024 07:45:38 +0000</pubDate></item></channel></rss>
