@@ -1,13 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Qxzg's Blog</title><link>https://qxzg.github.io</link><description>「What's past is prologue」</description><copyright>Qxzg's Blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/30212669</url><title>avatar</title><link>https://qxzg.github.io</link></image><lastBuildDate>Sat, 18 May 2024 16:09:46 +0000</lastBuildDate><managingEditor>Qxzg's Blog</managingEditor><ttl>60</ttl><webMaster>Qxzg's Blog</webMaster><item><title>Vitis HLS 编程优质资源收集</title><link>https://qxzg.github.io/post/Vitis-HLS-%E7%BC%96%E7%A8%8B%E4%BC%98%E8%B4%A8%E8%B5%84%E6%BA%90%E6%94%B6%E9%9B%86.html</link><description>## Documents &amp; Books  &#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Qxzg's Blog</title><link>https://qxzg.github.io</link><description>「What's past is prologue」</description><copyright>Qxzg's Blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/30212669</url><title>avatar</title><link>https://qxzg.github.io</link></image><lastBuildDate>Sat, 18 May 2024 16:11:06 +0000</lastBuildDate><managingEditor>Qxzg's Blog</managingEditor><ttl>60</ttl><webMaster>Qxzg's Blog</webMaster><item><title>Vitis HLS 编程优质资源收集</title><link>https://qxzg.github.io/post/Vitis-HLS-%E7%BC%96%E7%A8%8B%E4%BC%98%E8%B4%A8%E8%B5%84%E6%BA%90%E6%94%B6%E9%9B%86.html</link><description>## Documents &amp; Books  &#13;
 ### [Vitis High-Level Synthesis User Guide (UG1399)](https://docs.amd.com/r/en-US/ug1399-vitis-hls) From AMD  &#13;
 官方手册，优先级高于一切，无需多言&#13;
 &#13;
 ### [Parallel Programming for FPGAs](https://xupsh.gitbook.io/pp4fpgas-cn) 中译本 From Xilinx  &#13;
 正在阅读，待补充&#13;
-&#13;
-### [Vitis HLS Tool Command Line Interface](https://1drv.ms/b/s!AtSpPFUwpfUJgd8os3NyLXSaXl5vLg?e=V7DnwM)  &#13;
-命令行基础教程 From https://www.youtube.com/watch?v=Eta3U5O_E-I  &#13;
 &#13;
 ## Course&#13;
 ### [【台湾大学×BoLedu】FPGA高层次综合技术HLS于应用加速 (2022秋 赖瑾)](https://www.bilibili.com/video/BV1RM411a7E8/)&#13;
