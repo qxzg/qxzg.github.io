@@ -2,7 +2,7 @@
 ### [Vitis High-Level Synthesis User Guide (UG1399)](https://docs.amd.com/r/en-US/ug1399-vitis-hls) From AMD  
 官方手册，无需多言
 
-### [Parallel Programming for FPGAs](https://pp4fpgas.readthedocs.io/en/latest/index.html) From UCSD
+### [Parallel Programming for FPGAs](https://github.com/KastnerRG/pp4fpgas#pp4fpgas) From UCSD
 中译本 From Xilinx: https://xupsh.gitbook.io/pp4fpgas-cn
 正在阅读，待补充
 
