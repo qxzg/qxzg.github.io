@@ -1,9 +1,9 @@
 ## Documents & Books  
 ### [Vitis High-Level Synthesis User Guide (UG1399)](https://docs.amd.com/r/en-US/ug1399-vitis-hls) From AMD  
-官方手册，优先级高于一切，无需多言
+官方手册，无需多言
 
-### [Parallel Programming for FPGAs](https://xupsh.gitbook.io/pp4fpgas-cn) 中译本 From Xilinx  
-English Original: https://pp4fpgas.readthedocs.io/en/latest/index.html
+### [Parallel Programming for FPGAs](https://pp4fpgas.readthedocs.io/en/latest/index.html) From UCSD
+中译本 From Xilinx: https://xupsh.gitbook.io/pp4fpgas-cn
 正在阅读，待补充
 
 ## Course
@@ -13,4 +13,3 @@ English Original: https://pp4fpgas.readthedocs.io/en/latest/index.html
 
 ### [跟Xilinx SAE 学HLS系列视频讲座-高亚军](https://www.bilibili.com/video/BV1bt41187RW/)
 Xilinx 官方课程，短小精悍内容密度较高
-
