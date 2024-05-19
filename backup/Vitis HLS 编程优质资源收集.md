@@ -3,6 +3,7 @@
 官方手册，优先级高于一切，无需多言
 
 ### [Parallel Programming for FPGAs](https://xupsh.gitbook.io/pp4fpgas-cn) 中译本 From Xilinx  
+English Original: https://pp4fpgas.readthedocs.io/en/latest/index.html
 正在阅读，待补充
 
 ## Course
