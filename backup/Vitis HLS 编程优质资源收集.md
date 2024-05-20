@@ -3,7 +3,7 @@
 官方手册，无需多言
 
 ### [Parallel Programming for FPGAs](https://github.com/KastnerRG/pp4fpgas#pp4fpgas) From UCSD
-中译本 From Xilinx: https://xupsh.gitbook.io/pp4fpgas-cn
+中译本 From Xilinx: https://xupsh.gitbook.io/pp4fpgas-cn （部分章节翻译质量一言难尽，建议阅读英文原版）
 正在阅读，待补充
 
 ## Course
