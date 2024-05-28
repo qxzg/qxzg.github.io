@@ -9,8 +9,8 @@
         let theme = localStorage.getItem("meek_theme") || "light";
         document.documentElement.setAttribute("data-color-mode", theme);
     </script>
-<meta name="description" content="### 1. Can't lunch vit_hls with error: `@E cannot exec arch command, error: couldn't execute "arch": no such file or directory`
-run `echo "#\!bin/sh\nuname -m" > /usr/bin/arch; chmod +x /usr/bin/arch`
+<meta name="description" content="### 1. Can't lunch vit_hls with error: `@E cannot exec arch command, error: couldn't execute 'arch': no such file or directory`
+run `echo '#\!bin/sh\nuname -m' > /usr/bin/arch; chmod +x /usr/bin/arch`
 
 ### 2. Can't run `csim_design`
 Error log:
@@ -36,8 +36,8 @@ INFO: [SIM 211-3] *************** CSIM finish ***************
 Solution from https://support.xilinx.com/s/question/0D54U00005VQKeNSAX/vitis-hls-20211-ld-linker-and-libm-relr-section-error?language=en_US: 
 Run `sudo mv /opt/Xilinx/Vivado/2022.2/tps/lnx64/binutils-2.37/bin/ld /opt/Xilinx/Vivado/2022.2/tps/lnx64/binutils-2.37/bin/ld.back` to forces Vitis to use /usr/bin/ld。">
 <meta property="og:title" content="Run Vitis HLS Cli on Archlinux">
-<meta property="og:description" content="### 1. Can't lunch vit_hls with error: `@E cannot exec arch command, error: couldn't execute "arch": no such file or directory`
-run `echo "#\!bin/sh\nuname -m" > /usr/bin/arch; chmod +x /usr/bin/arch`
+<meta property="og:description" content="### 1. Can't lunch vit_hls with error: `@E cannot exec arch command, error: couldn't execute 'arch': no such file or directory`
+run `echo '#\!bin/sh\nuname -m' > /usr/bin/arch; chmod +x /usr/bin/arch`
 
 ### 2. Can't run `csim_design`
 Error log:
@@ -238,7 +238,6 @@ function iFrameLoading(){
     }
 }
 </script>
-
 
 
 </html>
