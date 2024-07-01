@@ -4,7 +4,7 @@
     <meta content="text/html; charset=utf-8" http-equiv="content-type" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link href="//cdn.staticfile.net/Primer/21.0.7/primer.css" rel="stylesheet" />
+    <link href='https://mirrors.sustech.edu.cn/cdnjs/ajax/libs/Primer/21.0.7/primer.css' rel='stylesheet' />
     <link rel="icon" href="https://avatars.githubusercontent.com/u/30212669"><script>
         let theme = localStorage.getItem("meek_theme") || "light";
         document.documentElement.setAttribute("data-color-mode", theme);
@@ -145,8 +145,10 @@ INFO: [SIM 211-3] *************** CSIM finish ***************
 <p>Solution from <a href="https://support.xilinx.com/s/question/0D54U00005VQKeNSAX/vitis-hls-20211-ld-linker-and-libm-relr-section-error?language=en_US" rel="nofollow">https://support.xilinx.com/s/question/0D54U00005VQKeNSAX/vitis-hls-20211-ld-linker-and-libm-relr-section-error?language=en_US</a>:<br>
 Run <code class="notranslate">sudo mv /opt/Xilinx/Vivado/2022.2/tps/lnx64/binutils-2.37/bin/ld /opt/Xilinx/Vivado/2022.2/tps/lnx64/binutils-2.37/bin/ld.back</code> to forces Vitis to use /usr/bin/ld</p></div>
 <div style="font-size:small;margin-top:8px;float:right;"></div>
+
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
 <div class="comments" id="comments"></div>
+
 </div>
     <div id="footer">Copyright © <span id="year"></span><a href="https://qxzg.github.io"> Qxzg's Blog </a>
 <p>
@@ -201,6 +203,8 @@ console.log("\n %c Gmeek last https://github.com/Meekdai/Gmeek \n\n","padding:5p
 <script>
 document.getElementById("pathHome").setAttribute("d",IconList["home"]);
 document.getElementById("pathIssue").setAttribute("d",IconList["github"]);
+
+
 
 function openComments(){
     cm=document.getElementById("comments");
