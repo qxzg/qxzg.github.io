@@ -1,10 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Qxzg's Blog</title><link>https://qxzg.github.io</link><description>「What's past is prologue」</description><copyright>Qxzg's Blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/30212669</url><title>avatar</title><link>https://qxzg.github.io</link></image><lastBuildDate>Fri, 12 Jul 2024 14:09:21 +0000</lastBuildDate><managingEditor>Qxzg's Blog</managingEditor><ttl>60</ttl><webMaster>Qxzg's Blog</webMaster><item><title>AMD AI Engine 资源导航</title><link>https://qxzg.github.io/post/AMD-AI-Engine-%E8%B5%84%E6%BA%90%E5%AF%BC%E8%88%AA.html</link><description>[AI Engine Intrinsics User Guide](https://www.xilinx.com/htmldocs/xilinx2024_1/aiengine_intrinsics/intrinsics/md_mainpage.html)&#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Qxzg's Blog</title><link>https://qxzg.github.io</link><description>「What's past is prologue」</description><copyright>Qxzg's Blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/30212669</url><title>avatar</title><link>https://qxzg.github.io</link></image><lastBuildDate>Fri, 12 Jul 2024 14:13:37 +0000</lastBuildDate><managingEditor>Qxzg's Blog</managingEditor><ttl>60</ttl><webMaster>Qxzg's Blog</webMaster><item><title>AMD AI Engine 资源导航</title><link>https://qxzg.github.io/post/AMD-AI-Engine-%E8%B5%84%E6%BA%90%E5%AF%BC%E8%88%AA.html</link><description>[AI Engine Blog Series](https://support.xilinx.com/s/question/0D52E00006xR6iXSAS/ai-engine-blog-series?language=en_US)&#13;
+&#13;
+[AI Engine Intrinsics User Guide](https://www.xilinx.com/htmldocs/xilinx2024_1/aiengine_intrinsics/intrinsics/md_mainpage.html)&#13;
 [AI Engine API User Guide (AIE-API) ](https://www.xilinx.com/htmldocs/xilinx2024_1/aiengine_api/aie_api/doc/index.html)&#13;
 &#13;
-[AI Engine Blog Series](https://support.xilinx.com/s/question/0D52E00006xR6iXSAS/ai-engine-blog-series?language=en_US)&#13;
 [AI 引擎工具和流程用户指南 (UG1076)](https://docs.amd.com/r/2023.2-%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87/ug1076-ai-engine-environment/%E8%BE%93%E5%87%BA)&#13;
 [AI 引擎内核与计算图编程指南 (UG1079)](https://docs.amd.com/r/zh-CN/ug1079-ai-engine-kernel-coding/%E6%A6%82%E8%BF%B0)&#13;
+[AI 引擎机器学习内核与计算图编程指南 (UG1603)](https://docs.amd.com/r/zh-CN/ug1603-ai-engine-ml-kernel-graph/%E6%A6%82%E8%BF%B0)&#13;
 &#13;
 [MLIR Compilers for Heterogeneous Computing](https://h2rc.cse.sc.edu/2022/slides/7_Neuendorffer.pdf)&#13;
 &#13;
