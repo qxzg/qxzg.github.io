@@ -4,3 +4,8 @@
 [AI 引擎内核与计算图编程指南 (UG1079)](https://docs.amd.com/r/zh-CN/ug1079-ai-engine-kernel-coding/%E6%A6%82%E8%BF%B0)
 
 [MLIR Compilers for Heterogeneous Computing](https://h2rc.cse.sc.edu/2022/slides/7_Neuendorffer.pdf)
+
+[iree-amd-aie](https://github.com/nod-ai/iree-amd-aie)
+[SPARTA](https://github.com/CMU-SAFARI/SPARTA)
+
+[Lei.Chat()](https://www.lei.chat/)
